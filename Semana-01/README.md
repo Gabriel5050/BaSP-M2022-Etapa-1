@@ -1,5 +1,5 @@
 # Hello Welcome to Trackgenis S.A.
-This is a program that alouds yo to:
+This is a program that allows you to:
 
  - boost your productivity
  - track works
