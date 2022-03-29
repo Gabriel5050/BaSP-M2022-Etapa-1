@@ -5,15 +5,17 @@
     </head>
     <body>
         <h1>Trackgenix S.A.</h1>
-        <h2>Menu</h2>
-            <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
-            <ul id="myMenu">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Sing Up</a></li>
-              <li><a href="#">Log in</a></li>
-              <li><a href="#">Contact info.</a></li>
-            </ul>
-        
+        <nav>
+            <h2>Menu</h2>
+                <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+                <ul id="myMenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sing Up</a></li>
+                <li><a href="#">Log in</a></li>
+                <li><a href="#">Contact info.</a></li>
+                </ul>
+        </nav>
+
         <section>
         <h2>What is Trackgenix?</h2>
             <p>
@@ -26,31 +28,40 @@
 
         <section>
         <h2>Functionalities</h2>
-            <h3>Hours log</h3>
-                <p>
-                    Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.
-                    Proin aliquam facilisis ante interdum.
-                    Sed nulla amet lorem feugiat tempus aliquam.
-                </p>
-            <h3>Resources Management</h3>
-                <p>
-                    Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.
-                    Proin aliquam facilisis ante interdum.
-                    Sed nulla amet lorem feugiat tempus aliquam.
-                </p>
-            <h3>Reports</h3>
-                <p>
-                    Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.
-                    Proin aliquam facilisis ante interdum.
-                    Sed nulla amet lorem feugiat tempus aliquam.
-                </p>
+            <div>
+                <h3>Hours log</h3>
+                    <p>
+                        Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.
+                        Proin aliquam facilisis ante interdum.
+                        Sed nulla amet lorem feugiat tempus aliquam.
+                    </p>
+            </div>
+            <div>
+                <h3>Resources Management</h3>
+                    <p>
+                        Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.
+                        Proin aliquam facilisis ante interdum.
+                        Sed nulla amet lorem feugiat tempus aliquam.
+                    </p>
+            </div>
+            <div>
+                <h3>Reports</h3>
+                    <p>
+                        Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.
+                        Proin aliquam facilisis ante interdum.
+                        Sed nulla amet lorem feugiat tempus aliquam.
+                    </p>
+            </div>
+            <div>
             <h3>Multiple roles</h3>
                 <p>
                     Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.
                     Proin aliquam facilisis ante interdum.
                     Sed nulla amet lorem feugiat tempus aliquam.
                 </p>
+            </div>
         </section>
+
         <section>
         <h2>Why Trackgenix?</h2>
             <ul>
@@ -59,7 +70,7 @@
                 <li>Leadership and Team Management</li>
                 <li>Decision making</li>
             </ul>
-            <button>More</button>
+            <button onclick="document.location='default.asp'">More</button>
             <img src="imagenes/second.jpg" alt="second" width="350" height="300">
         </section>
 
@@ -70,9 +81,8 @@
             <input type="email" placeholder="Email" title="email">
             <input type="text" placeholder="Select area" title="organization area">
             <input type="text" placeholder="Enter your message" title="message">
-
-        <input type="submit" value="Send message">
-        <input type="reset" value="reset">
+            <input type="submit" value="Send message">
+            <input type="reset" value="reset">
 
         </form>
         </section>
@@ -93,6 +103,7 @@
         </section>
 
         <section>
+            <div>
             <h2>Products</h2>
                 <ol>
                     <li><a href="#">Functionalities</a></li>
@@ -100,6 +111,9 @@
                     <li><a href="#">Integrations</a></li>
                     <li><a href="#">Extras</a></li>
                 </ol>
+            </div>
+
+            <div>
             <h2>Company</h2>
                 <ol>
                     <li><a href="#">About Us</a></li>
@@ -107,6 +121,9 @@
                     <li><a href="#">Resources</a></li>
                     <li><a href="#">Blog</a></li>
                 </ol>
+            </div>
+
+            <div>
             <h2>Suport</h2>
                 <ol>
                     <li><a href="#">Help</a></li>
@@ -114,6 +131,7 @@
                     <li><a href="#">API</a></li>
                     <li><a href="#">Contact</a></li>
                 </ol>
+            </div>
         </section>
 
         <section>
