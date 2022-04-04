@@ -1,3 +1,25 @@
+h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 54px;
+position: absolute;
+width: 272px;
+height: 54px;
+left: 100px;
+top: 23px;
+}
+header > ul > li {
+    display:inline-block;
+
+}
+header > ul {
+    position: absolute;
+    right:0px;
+    top: 23px;
+
+}
 nav{
     position: absolute;
     width: 288px;
@@ -5,7 +27,7 @@ nav{
     left: 1px;
     top: 1px;
 
-    background: grey;
+    background:#DDDDDD;
 }
 header{
     position: absolute;
@@ -47,6 +69,37 @@ h2 {
     line-height: 23px;
     margin-bottom: 20px;
 }
+#whatistrackgenix{
+    position: relative;
+    padding-top: 52px;
+    height: 400px;
+    width: 1080px;
+}
+.whatistrackgenix-content > h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    width: 420px;
+}
+.whatistrackgenix-content > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 420px;
+    margin-right: 362px;
+}
+img#first{
+    position:absolute;
+    width: 525px;
+    height: 401px;
+    right:86px;
+    top: 49px;
+}
+
 #funccionalities{
     display: inline-block;
 }
@@ -57,20 +110,41 @@ h2 {
     height: 300px;
 }
 .functionalities-item > h3 {
-position:absolute;
-top:0px;
-left:80px;
+    position:absolute;
+    top:0px;
+    left:80px;
 }
 .functionalities-item > p {
-position:absolute;
-top:30px;
-left:80px;
+    position:absolute;
+    top:30px;
+    left:80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
 }
 .functionalities-item > h4 {
     position:absolute;
     top:30px;
     left:0px;
     }
-header > ul > li{
-    display:inline-block;
+#why-trackgenix{
+
 }
+img#second{
+    position: absolute;
+    Width:280px;
+    Height:267.56px;
+    Top:1111px;
+    Radius:5px;
+    right: 142px;
+}
+#why-list{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+
