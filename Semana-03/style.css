@@ -105,6 +105,7 @@ img#first{
     height: 401px;
     right:86px;
     top: 49px;
+    border-radius: 5px;
 }
 
 #funccionalities{
@@ -167,6 +168,7 @@ img#second{
     Top: 1000px;
     Radius:5px;
     right: 300px;
+    border-radius: 5px;
 }
 #morebutton{
     background: #FFFFFF;
@@ -177,17 +179,33 @@ img#second{
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    line-height: 18px
-    position: absolute;
     width: 139px;
     left: calc(50% - 139px/2 - 232.5px);
     top: 48.7%;
 }
 .form{
     display: block;
+    border-radius: 5px;
     padding-bottom: 20px;
+}
+input[type="text" i] {
+    width: 45%;
+    border-radius: 5px;
+}
+input[type="email" i] {
+    width: 45%;
+    border-radius: 5px;
+}
+select{
+    width: 91.7%;
+    border-radius: 5px;
+}
+textarea{
+    width: 91.2%;
+    height: 45%;
+    border-radius: 5px;
+}
 
-}    
 .form-group > h2{
     font-family: 'Roboto';
     font-style: normal;
@@ -200,13 +218,14 @@ img#second{
 }
 #history{
     position: relative;
+    display: inline-block;
     width: 310px;
     height: 35px;
-    left: 318px;
-    top: 1479px;
     padding-top: 52px;
     height: 400px;
     width: 1080px;
+    border-bottom: 1px grey solid;
+    padding-bottom: 10px;
 }
 .history > h2{
     width: 60%;
@@ -219,6 +238,7 @@ img#second{
     line-height: 18px;
 }
 .ourhistory > p{
+    margin: 20px;
     width: 609.86px;
     height: 182.81px;
     font-family: 'Roboto';
@@ -226,11 +246,18 @@ img#second{
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
+    position: absolute;
+    width: 609.86px;
+    height: 182.81px;
+    left: 436.14px;
+    top: 126.67999999999984px;
 }
 img#third{
     Width:435.61px;
     Height:219.38px;
+
 }
+
 #pcs{
     display:inline-block
 }
@@ -256,5 +283,8 @@ img#third{
     text-decoration: none;
 }
 footer{
-    
+    position:absolute;
+    left: 300px;
+    top: 3000px;
 }
+
