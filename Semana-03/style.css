@@ -1,14 +1,18 @@
 h1{
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 54px;
-position: absolute;
-width: 272px;
-height: 54px;
-left: 100px;
-top: 23px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    position: absolute;
+    width: 272px;
+    height: 54px;
+    left: 100px;
+    top: 23px;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 header > ul > li {
     display:inline-block;
@@ -68,12 +72,14 @@ h2 {
 #myMenu > li {
     line-height: 23px;
     margin-bottom: 20px;
+    list-style-type: none;
 }
 #whatistrackgenix{
     position: relative;
     padding-top: 52px;
     height: 400px;
     width: 1080px;
+    border-bottom: 1px grey solid;
 }
 .whatistrackgenix-content > h2 {
     font-family: 'Roboto';
@@ -83,7 +89,7 @@ h2 {
     line-height: 30px;
     width: 420px;
 }
-.whatistrackgenix-content > p {
+.whatistrackgenix-content > p{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -103,6 +109,9 @@ img#first{
 #funccionalities{
     display: inline-block;
 }
+.fa-solid{
+    font-size: 75px;
+}
 .functionalities-item{
     position: relative;
     display: inline-block;
@@ -113,6 +122,11 @@ img#first{
     position:absolute;
     top:0px;
     left:80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
 }
 .functionalities-item > p {
     position:absolute;
@@ -130,7 +144,17 @@ img#first{
     left:0px;
     }
 #why-trackgenix{
+    font-family: 'Roboto';
+    font-style: normal;
+    border-bottom: 1px grey solid;
+}
 
+#why-list{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
 }
 img#second{
     position: absolute;
@@ -140,11 +164,98 @@ img#second{
     Radius:5px;
     right: 142px;
 }
-#why-list{
+#morebutton{
+    background: #FFFFFF;
+    border: 1px solid #FF5500;
+    box-sizing: border-box;
+    border-radius: 5px;
     font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px
+    position: absolute;
+    width: 139px;
+    left: calc(50% - 139px/2 - 232.5px);
+    top: 48.7%;
+    bottom: 49.62%;
+}
+#help{
+    padding: 20px;
+    width: 310px;
+    height: 35px;
+    left: 318px;
+    top: 1479px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    
+}
+#help > h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+}
+.form{
+    border-bottom: 1px grey solid;
+}
+#history{
+    position: relative;
+    width: 310px;
+    height: 35px;
+    left: 318px;
+    top: 1479px;
+    padding-top: 52px;
+    height: 400px;
+    width: 1080px;
+}
+.history > h2{
+    width: 60%;
+    width: 609.86px;
+    height: 182.81px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+.ourhistory > p{
+    width: 609.86px;
+    height: 182.81px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+img#third{
+    Width:435.61px;
+    Height:219.38px;
+}
+#pcs{
+    display:inline-block
+}
+.pcs-item{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+.pcs-item > h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+#olstyle{
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 30px;
+    text-decoration: none;
 }
-

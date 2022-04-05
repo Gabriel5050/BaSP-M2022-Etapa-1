@@ -45,8 +45,8 @@
                 <h2>Functionalities</h2>
                 <div id="functionalities">
                     <div class="functionalities-item">
+                        <i class="fa-solid fa-pen"></i>
                         <h3>Hours log</h3>
-                        <h4>icono</h4>
                         <p>
                             Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.
                             Proin aliquam facilisis ante interdum.
@@ -54,8 +54,8 @@
                         </p>
                     </div>
                     <div class="functionalities-item">
+                        <i class="fa-solid fa-folder"></i>
                         <h3>Resources Management</h3>
-                        <h4>icono</h4>
                         <p>
                             Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.
                             Proin aliquam facilisis ante interdum.
@@ -63,8 +63,8 @@
                         </p>
                     </div>
                     <div class="functionalities-item">
+                        <i class="fa-solid fa-file-lines"></i>
                         <h3>Reports</h3>
-                        <h4>icono</h4>
                         <p>
                             Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.
                             Proin aliquam facilisis ante interdum.
@@ -72,8 +72,8 @@
                         </p>
                     </div>
                     <div class="functionalities-item">
+                        <i class="fa-solid fa-clipboard-check"></i>
                         <h3>Multiple roles</h3>
-                        <h4>icono</h4>
                         <p>
                             Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.
                             Proin aliquam facilisis ante interdum.
@@ -92,14 +92,15 @@
                     <li>Leadership and Team Management</li>
                     <li>Decision making</li>
                 </ul>
-                <button onclick="document.location='default.asp'">More</button>
+                <button id="morebutton"onclick="document.location='default.asp'">More</button>
                 <img id="second" src="imagenes e iconos/second.jpg" alt="second">
                 </div>
             </section>
 
             <section>
+                <div id="help">
                 <h2>How can we help you?</h2>
-                <form>
+                <form class="form">
                     <input type="text" placeholder="Name" title="name">
                     <input type="email" placeholder="Email" title="email">
                     <select name="select area">
@@ -111,12 +112,15 @@
                     <textarea placeholder="Enter your message"></textarea>
                     <input type="submit" value="Send message">
                     <input type="reset" value="reset">
-
                 </form>
+                </div>
             </section>
 
             <section>
+                <div id="history">
+                <div class="ourhistory">
                 <h2>Our History</h2>
+                <img id="third" src="imagenes e iconos/third.jpg" alt="third">
                 <p>
                     Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget.
                     tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.
@@ -127,13 +131,14 @@
                     Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum.
                     Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.
                 </p>
-                <img id="third" src="imagenes e iconos/third.jpg" alt="third">
+                </div>
+                </div>
             </section>
-
             <section>
-                <div>
+                <div id="pcs">
+                    <div class="pcs-item">
                     <h2>Products</h2>
-                    <ol>
+                    <ol id="olstyle">
                         <li><a href="#">Functionalities</a></li>
                         <li><a href="#">Downloads</a></li>
                         <li><a href="#">Integrations</a></li>
@@ -141,9 +146,9 @@
                     </ol>
                 </div>
 
-                <div>
+                <div class="pcs-item">
                     <h2>Company</h2>
-                    <ol>
+                    <ol id="olstyle">
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Clients</a></li>
                         <li><a href="#">Resources</a></li>
@@ -151,9 +156,9 @@
                     </ol>
                 </div>
 
-                <div>
+                <div class="pcs-item">
                     <h2>Suport</h2>
-                    <ol>
+                    <ol id="olstyle">
                         <li><a href="#">Help</a></li>
                         <li><a href="#">Tutorials</a></li>
                         <li><a href="#">API</a></li>
