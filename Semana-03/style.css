@@ -80,6 +80,7 @@ h2 {
     height: 400px;
     width: 1080px;
     border-bottom: 1px grey solid;
+    padding-bottom: 20px;
 }
 .whatistrackgenix-content > h2 {
     font-family: 'Roboto';
@@ -116,11 +117,11 @@ img#first{
     position: relative;
     display: inline-block;
     width: 400px;
-    height: 300px;
+    height: 200px;
 }
 .functionalities-item > h3 {
     position:absolute;
-    top:0px;
+    top: -20px;
     left:80px;
     font-family: 'Roboto';
     font-style: normal;
@@ -147,6 +148,9 @@ img#first{
     font-family: 'Roboto';
     font-style: normal;
     border-bottom: 1px grey solid;
+    padding-bottom: 40px;
+    border-top: 1px grey solid;
+    padding-top: 100px;
 }
 
 #why-list{
@@ -160,9 +164,9 @@ img#second{
     position: absolute;
     Width:280px;
     Height:267.56px;
-    Top:1111px;
+    Top: 1000px;
     Radius:5px;
-    right: 142px;
+    right: 300px;
 }
 #morebutton{
     background: #FFFFFF;
@@ -178,21 +182,13 @@ img#second{
     width: 139px;
     left: calc(50% - 139px/2 - 232.5px);
     top: 48.7%;
-    bottom: 49.62%;
 }
-#help{
-    padding: 20px;
-    width: 310px;
-    height: 35px;
-    left: 318px;
-    top: 1479px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    
-}
-#help > h2{
+.form{
+    display: block;
+    padding-bottom: 20px;
+
+}    
+.form-group > h2{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -258,4 +254,7 @@ img#third{
     font-size: 20px;
     line-height: 30px;
     text-decoration: none;
+}
+footer{
+    
 }
