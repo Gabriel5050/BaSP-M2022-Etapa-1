@@ -177,6 +177,8 @@ img#second{
     border-radius: 5px;
     font-family: 'Roboto';
     font-style: normal;
+    text-align: center;
+    color: #FF5500;
     font-weight: 400;
     font-size: 15px;
     width: 139px;
@@ -191,19 +193,26 @@ img#second{
 input[type="text" i] {
     width: 45%;
     border-radius: 5px;
+    padding: 10px;
 }
 input[type="email" i] {
     width: 45%;
     border-radius: 5px;
+    padding: 10px;
 }
 select{
-    width: 91.7%;
+    width: 94.4%;
     border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 textarea{
-    width: 91.2%;
+    width: 92.5%;
     height: 45%;
     border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 30px;
 }
 
 .form-group > h2{
@@ -213,6 +222,31 @@ textarea{
     font-size: 30px;
     line-height: 35px;
 }
+input[type="submit" i] {
+    width: 171px;
+    left: calc(50% - 171px/2 - 314.17px);
+    top: 67.41%;
+    bottom: 30.91%;
+    background: #FF5500;
+    border: 1px solid #FF5500;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+}
+input[type="reset" i] {
+    width: 111px;
+    left: calc(50% - 111px/2 - 128.17px);
+    top: 67.41%;
+    bottom: 30.91%;
+    background: #FFFFFF;
+    border: 1px solid #FF5500;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    color: #FF5500;
+}
+
 .form{
     border-bottom: 1px grey solid;
 }
