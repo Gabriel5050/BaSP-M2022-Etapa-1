@@ -304,6 +304,7 @@ img#third{
     display:inline-block
 }
 .pcs-item{
+    margin-left: 60px;
     position: relative;
     display: inline-block;
     width: 300px;
@@ -334,4 +335,5 @@ footer {
 }
 footer > ul > li{
     display:inline-block;
+    margin-left: 25px;
 }
