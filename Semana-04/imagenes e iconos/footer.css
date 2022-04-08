@@ -1,0 +1,9 @@
+footer {
+    position: absolute;
+    left: 601px;
+    top: 2660px;
+}
+footer > ul > li{
+    display:inline-block;
+    margin-left: 25px;
+}

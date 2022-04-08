@@ -1,0 +1,36 @@
+h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    position: absolute;
+    width: 272px;
+    height: 54px;
+    left: 100px;
+    top: 23px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header > ul > li {
+    display:inline-block;
+
+}
+header > ul {
+    position: absolute;
+    right:0px;
+    top: 23px;
+
+}
+header{
+    position: absolute;
+    width: 1152px;
+    height: 100px;
+    left: 288px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 0px #FF0000;
+}
