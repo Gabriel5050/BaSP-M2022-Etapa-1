@@ -29,3 +29,7 @@ h1{
 header > ul > li{
     display: none;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
