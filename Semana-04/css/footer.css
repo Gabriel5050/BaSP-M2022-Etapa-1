@@ -7,6 +7,7 @@ footer {
     top: 2660px;
 }
 footer > ul > li{
-    display:inline-block;
+    display: flex;
+    justify-content: center;
     margin-left: 25px;
 }

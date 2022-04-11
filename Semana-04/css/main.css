@@ -1,5 +1,7 @@
-main{
-    padding: 0px 32px;
+main {
+    position: absolute;
+    left: 300px;
+    top: 100px;
 }
 section {
     display: flex;
@@ -16,14 +18,21 @@ img#first{
     top: 105px;    
     border-radius: 5px;
 }
+.whatistrackgenix-text{
+    flex-direction: column;
+    display: flex;
+}
+
 #functionalities {
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
     justify-content: center;
     gap: 20px 35px;
+
 }
 .fa-solid{
     font-size: 35px;
+
 }
 .functionalities-item > h3 {
     top: -20px;
@@ -54,7 +63,6 @@ img#second{
     top: 1247px;
     border-radius: 5px;    
 }
-/* imagen no corresponde a tamaño*/
 #morebutton{
     background: #FFFFFF;
     border: 1px solid #FF5500;
@@ -185,11 +193,11 @@ img#third{
     top: 2190px;
 }
 
-.pcs{
-    display:flexbox
+#pcs{
+    display:flex;
+    flex-direction: column;
 }
 .pcs-item{
-    width: 300px;
     height: 300px;
 }
 .pcs-item > h2{
@@ -213,4 +221,30 @@ main{
 a{
     text-decoration: none;
     color: black;
+}
+.form-name-email{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width:1024px){
+    .whatistrackgenix-content{
+        flex-direction: row-reverse;
+        display: flex;
+    }
+    #pcs{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .form-name-email{
+        display: flex;
+        flex-direction: row;
+    }
+    #functionalities {
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        gap: 20px 35px;
+    
+    }
 }
