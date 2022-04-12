@@ -22,7 +22,6 @@ header > ul {
     position: absolute;
     right:0px;
     top: 23px;
-
 }
 
 header{
@@ -305,7 +304,3 @@ footer > ul > li{
     display:inline-block;
     margin-left: 25px;
 }
-/*
-landing mobile
-width: 414px;
-height: 3164px;*/
