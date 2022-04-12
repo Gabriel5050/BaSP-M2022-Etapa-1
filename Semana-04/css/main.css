@@ -1,16 +1,16 @@
 main {
-
-    left: 300px;
-    top: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 25px 0px 0px 0pxs;
     max-width: 1400px;
     align-items: stretch;
     margin: auto;
     border-top: 1px grey solid;
+    flex-wrap: wrap;
 }
 img#first{
     width: 337.89px;
@@ -23,6 +23,9 @@ img#first{
 .whatistrackgenix-text{
     flex-direction: column;
     display: flex;
+}
+input[type="Learn-More"i]{
+    display: none;
 }
 
 #functionalities {
@@ -60,6 +63,7 @@ img#first{
 }
 .whytrackgenix{
     border-top: 1px grey solid;
+
 }
 img#second{
     height: 230px;
@@ -67,6 +71,7 @@ img#second{
     left: 32px;
     top: 1247px;
     border-radius: 5px;    
+    margin-top: 20px;
 }
 #morebutton{
     background: #FFFFFF;
@@ -95,18 +100,17 @@ img#second{
     padding-bottom: 20px;
 }
 input[type="text" i] {
-    width: 45%;
+    width: 100%;
     border-radius: 5px;
     padding: 10px;
     margin-top: 30px;
     margin-right: 15px;
 }
 input[type="email"i] {
-    width: 45%;
+    width: 100%;
     border-radius: 5px;
     padding: 10px;
     margin-top: 30px;
-    margin-left: 15px;
 }
 select{
     width: 93%;
@@ -182,15 +186,13 @@ input[type="reset" i] {
 }
 .ourhistory > p{
     margin: 20px;
-    width: 609.86px;
+    width: 60%;
     height: 182.81px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
-    width: 609.86px;
-    height: 182.81px;
     left: 436.14px;
     top: 126.67999999999984px;
 }
@@ -237,20 +239,44 @@ a{
         flex-direction: row-reverse;
         display: flex;
     }
+    #nav >
     #pcs{
         display:flex;
         flex-direction: row;
         justify-content: space-evenly;
+        margin-left: 15%;
     }
     .form-name-email{
         display: flex;
         flex-direction: row;
+        width: 90%;
+        margin: 20px;
     }
-    #functionalities {
-        flex-direction: row;
-        display: flex;
-        justify-content: center;
-        gap: 20px 35px;
     
+    .functionalities-item {
+        gap: 20px 35px;
+        width: 40%;
     }
+    main{
+        margin-left: 300px;
+    }
+    input[type="Learn-More"i]{
+        display: block;
+        width: 111px;
+        left: calc(50% - 111px/2 - 128.17px);
+        top: 67.41%;
+        bottom: 30.91%;
+        background: #FFFFFF;
+        border: 1px solid #FF5500;
+        box-sizing: border-box;
+        border-radius: 5px;
+        text-align: center;
+        color: #FF5500;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #history{
+
+    }
+
 }
