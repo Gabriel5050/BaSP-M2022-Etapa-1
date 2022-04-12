@@ -10,6 +10,7 @@ section {
     max-width: 1400px;
     align-items: stretch;
     margin: auto;
+    border-top: 1px grey solid;
 }
 img#first{
     width: 337.89px;
@@ -56,7 +57,10 @@ img#first{
 .functionalities-item > h4 {
     top:30px;
     left:0px;
-    }
+}
+.whytrackgenix{
+    border-top: 1px grey solid;
+}
 img#second{
     height: 230px;
     width: 347.1205749511719px;

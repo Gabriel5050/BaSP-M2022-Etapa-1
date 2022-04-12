@@ -2,21 +2,12 @@ a{
     text-decoration: none;
     color: black;
 }
-footer > div > ul{
-    display: flex;
-    justify-content: center;
-    margin-left: 25px;
-}
-
 footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-  
-#media-icons {
-    display: flex;
-    justify-content: space-between;
-    width: 159px;
-    margin: 26px 0px 20px;
+  }
+  footer > div > ul > li{
+    display:inline-block;
+    margin-left: 25px;
 }
