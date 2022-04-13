@@ -17,8 +17,8 @@ section {
     flex-wrap: wrap;
 }
 img#first{
-    width: 337.89px;
-    height: 270px;
+    width: 100%;
+    height: 100%;
     left: 38px;
     top: 105px;    
     border-radius: 5px;
@@ -64,12 +64,13 @@ input[type="Learn-More"i]{
     left:0px;
 }
 .whytrackgenix{
+    margin-bottom: 100px;
     border-top: 1px grey solid;
 
 }
 img#second{
-    height: 230px;
-    width: 347.1205749511719px;
+    height: 100%;
+    width: 100%;
     left: 32px;
     top: 1247px;
     border-radius: 5px;    
@@ -172,11 +173,10 @@ input[type="reset" i] {
     padding-top: 52px;
     height: 400px;
     width: 1080px;
-    padding-bottom: 50px;
+    margin-bottom: 200px;
 }
 .history > h2{
     width: 60%;
-    width: 609.86px;
     height: 182.81px;
     font-family: 'Roboto';
     font-style: normal;
@@ -197,8 +197,8 @@ input[type="reset" i] {
     top: 126.67999999999984px;
 }
 img#third{
-    width: 350px;
-    height: 180px;
+    width: 80%;
+    height: 60%;
     left: 32px;
     top: 2190px;
 }
@@ -256,12 +256,18 @@ a{
     .whatistrackgenix-content{
         flex-direction: row-reverse;
         display: flex;
+        margin-bottom: 50px;
     }
-    #pcs{
-        display:flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin-left: 15%;
+    div#why-trackgenix{
+        flex-wrap: wrap;
+    }
+    img#second{
+    height: 230px;
+    width: 347.1205749511719px;
+    left: 32px;
+    top: 1247px;
+    border-radius: 5px;    
+    margin-top: 20px;
     }
     .form-name-email{
         display: flex;
@@ -279,10 +285,32 @@ a{
         flex-basis: 45%;
 
     }
-
-
-    #history{
-
+    div.whytrackgenix{
+        display: flex;
+        margin-bottom: 0%;
     }
-
+    div#history{
+        margin-bottom: 0%;
+    }
+    div.ourhistory{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    div.ourhistory-text{
+        width: 50%;
+        margin-left: 20px;
+    }
+    img#third{
+        width: 350px;
+        height: 180px;
+        left: 32px;
+        top: 2190px;
+    }
+    #pcs{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 15%;
+    }
 }
