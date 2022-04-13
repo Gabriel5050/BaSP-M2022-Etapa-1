@@ -1,10 +1,14 @@
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+}
 main {
     margin-left: 15px;
     margin-right: 15px;
 }
 section {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 25px 0px 0px 0pxs;
     max-width: 1400px;
     align-items: stretch;
@@ -33,17 +37,17 @@ input[type="Learn-More"i]{
     display: flex;
     justify-content: center;
     gap: 20px 35px;
-
 }
 .fa-solid{
     font-size: 35px;
 
 }
+.functionalities-item{
+    flex-direction: column;
+}
 .functionalities-item > h3 {
     top: -20px;
     left:80px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
@@ -51,8 +55,6 @@ input[type="Learn-More"i]{
 .functionalities-item > p {
     top:30px;
     left:80px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 30px;
@@ -78,8 +80,6 @@ img#second{
     border: 1px solid #FF5500;
     box-sizing: border-box;
     border-radius: 5px;
-    font-family: 'Roboto';
-    font-style: normal;
     text-align: center;
     color: #FF5500;
     font-weight: 400;
@@ -235,32 +235,10 @@ a{
 }
 
 @media screen and (min-width:1024px){
-    .whatistrackgenix-content{
-        flex-direction: row-reverse;
-        display: flex;
-    }
-    #nav >
-    #pcs{
-        display:flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin-left: 15%;
-    }
-    .form-name-email{
-        display: flex;
-        flex-direction: row;
-        width: 90%;
-        margin: 20px;
-    }
-    
-    .functionalities-item {
-        gap: 20px 35px;
-        width: 40%;
-    }
     main{
         margin-left: 300px;
     }
-    input[type="Learn-More"i]{
+        input[type="Learn-More"i]{
         display: block;
         width: 111px;
         left: calc(50% - 111px/2 - 128.17px);
@@ -275,6 +253,34 @@ a{
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    .whatistrackgenix-content{
+        flex-direction: row-reverse;
+        display: flex;
+    }
+    #pcs{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 15%;
+    }
+    .form-name-email{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+    #functionalities{
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+
+    }
+    .functionalities-item {
+        flex-basis: 45%;
+
+    }
+
+
     #history{
 
     }
