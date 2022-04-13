@@ -222,6 +222,7 @@ img#third{
 main{
     border-bottom: 4px solid #FF0000;
 }
+
 a{
     text-decoration: none;
     color: black;
@@ -246,14 +247,17 @@ a{
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
     .whatistrackgenix-content{
         flex-direction: row-reverse;
         display: flex;
         margin-bottom: 50px;
     }
+
     div#why-trackgenix{
         flex-wrap: wrap;
     }
+
     img#second{
     height: 230px;
     width: 347.1205749511719px;
@@ -262,11 +266,13 @@ a{
     border-radius: 5px;    
     margin-top: 20px;
     }
+
     .form-name-email{
         display: flex;
         flex-direction: row;
         width: 90%;
     }
+
     #functionalities{
         flex-direction: row;
         flex-wrap: wrap;
@@ -278,28 +284,34 @@ a{
         flex-basis: 45%;
 
     }
+
     div.whytrackgenix{
         display: flex;
         margin-bottom: 0%;
     }
+
     div#history{
         margin-bottom: 0%;
     }
+
     div.ourhistory{
         display: flex;
         flex-direction: row;
         align-items: center;
     }
+
     div.ourhistory-text{
         width: 50%;
         margin-left: 20px;
     }
+
     img#third{
         width: 350px;
         height: 180px;
         left: 32px;
         top: 2190px;
     }
+    
     #pcs{
         display:flex;
         flex-direction: row;

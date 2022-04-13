@@ -15,6 +15,7 @@ nav > input {
             border-radius: 5px;
             padding: 5px;;
         }
+
         h2 {
             font-weight: bolder;
             margin-left: 14px;
@@ -29,7 +30,8 @@ nav > input {
             font-weight: 300;
             font-size: 20px;
             
-          }
+        }
+
         #myMenu > li {
             line-height: 23px;
             margin-bottom: 20px;
