@@ -4,6 +4,7 @@ console.log('--EXERCISE 2: Strings');
     a.create a varieble string type with at least 10 caracters
     and convert the hole text in upper case
 */
+
 console.log('-exercise 2.a');
 
 var textUpperCase = 'Upper Case please';
@@ -14,6 +15,7 @@ console.log(textUpperCase.toUpperCase());
     generar un nuevo string con los primeros 5 caracteres guardando
     el resultado en una nueva variable (utilizar substring).
 */
+
 console.log('-exercise 2.b');
 
 var string = 'ok lets use substring';
@@ -25,6 +27,7 @@ console.log (stringsub);
     y generar un nuevo string con los últimos 3 caracteres guardando
     el resultado en una nueva variable (utilizar substring).
 */
+
 console.log('-exercise 2.c');
 
 var string = 'ok lets use substring';
@@ -37,6 +40,7 @@ console.log (stringslast)
     resultado en una nueva variable (utilizar substring, toUpperCase, toLowerCase
     y el operador +).
 */
+
 console.log('-exercise 2.d');
 
 var string = 'uPPER cASE tEXT';
@@ -48,6 +52,7 @@ console.log(string2d);
     en blanco. Encontrar la posición del primer espacio en blanco y guardarla en
     una variable (utilizar indexOf).
 */
+
 console.log('-exercise 2.e');
 
 var stringblank = 'blank space';
@@ -65,6 +70,7 @@ console.log(string2e + 1);
     en mayúscula y las demás letras en minúscula (utilizar indexOf,
     substring, toUpperCase, toLowerCase y el operador +).
 */
+
 console.log('-exercise 2.f');
 
 var sentence ='bomberos murciélago';
