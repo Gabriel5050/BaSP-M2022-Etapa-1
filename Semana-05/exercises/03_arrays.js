@@ -1,4 +1,4 @@
-//console.log('-EXERCISE 3: ARRAYS')
+console.log('-EXERCISE 3: ARRAYS');
 
 /*
     a. Dado el siguiente array: ["Enero", "Febrero", "Marzo", "Abril",

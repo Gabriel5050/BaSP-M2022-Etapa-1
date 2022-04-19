@@ -1,4 +1,4 @@
-//console.log(´--EXERCISE 2: Strings´)
+console.log('--EXERCISE 2: Strings');
 
 /*
     a.create a varieble string type with at least 10 caracters

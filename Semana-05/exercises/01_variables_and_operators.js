@@ -1,4 +1,4 @@
-//console.log(´--EXERCISE 1 : VARIABLES AND OPERATORS´)
+console.log('--EXERCISE 1 : VARIABLES AND OPERATORS');
 /*
     a. Create 2 numeric variables and use the operator to save the sum
     of both numers in a third variable
