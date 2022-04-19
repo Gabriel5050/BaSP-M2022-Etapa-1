@@ -7,3 +7,6 @@ Description of the problematic week N°05:
 3-all exercises must be uploaded in a folder called "semana-05" located in the git hub repo created in the week 02 and each exercise should be done in the order given with a commit per exercise solved.
 
 4-In the announce, add as a comment the solution in every exercise.
+
+
+https://gabriel5050.github.io/BaSP-M2022-Etapa-1/Semana-05/
