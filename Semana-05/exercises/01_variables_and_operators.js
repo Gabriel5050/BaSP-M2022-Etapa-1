@@ -1,7 +1,6 @@
-/* Exercise 1: Variables and Operatos*/
-
+//console.log(´--EXERCISE 1 : VARIABLES AND OPERATORS´)
 /*
-    create 2 numeric variables and use the operator to save the sum
+    a. Create 2 numeric variables and use the operator to save the sum
     of both numers in a third variable
 */
 
@@ -13,7 +12,7 @@ var addition = numberA + numberB;
 console.log(addition);
 
 /*
-    create 2 variables string type and concatenate them
+    b. create 2 variables string type and concatenate them
     saving the result in a third variable
 */
 
@@ -25,7 +24,7 @@ var fullName = firstName + " " + lastName;
 console.log(fullName);
 
 /*
-    create two variables string type and sum the length of each variable
+    c. create two variables string type and sum the length of each variable
     (amount of letters od the string) saving the result of the sum on a 
     third variable(use kength).
 */
