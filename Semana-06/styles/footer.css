@@ -1,0 +1,15 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer > div > ul > li{
+    display:inline-block;
+    margin-left: 25px;
+}

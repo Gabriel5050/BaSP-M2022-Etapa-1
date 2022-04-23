@@ -1,0 +1,45 @@
+nav{
+    position: absolute;
+    width: 288px;
+    height: 3420px;
+    left: 1px;
+    top: 1px;
+    display: none;
+    background:#DDDDDD;
+}
+nav > input {
+            width: 80%;
+            margin-top: 35px;
+            margin-left:14px;
+            margin-right: 14px;
+            border-radius: 5px;
+            padding: 5px;;
+        }
+
+        h2 {
+            font-weight: bolder;
+            margin-left: 14px;
+        }
+        #myMenu
+         {
+            list-style-type: none;
+            padding: 0;
+            margin-left: 14px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            
+        }
+
+        #myMenu > li {
+            line-height: 23px;
+            margin-bottom: 20px;
+            list-style-type: none;
+        }
+    
+@media screen and (min-width:1024px){
+    nav{
+        display: block;
+    }
+}

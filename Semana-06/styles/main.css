@@ -1,0 +1,321 @@
+main {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0px 0px 0pxs;
+    max-width: 1400px;
+    align-items: stretch;
+    margin: auto;
+    border-top: 1px grey solid;
+    flex-wrap: wrap;
+}
+img#first{
+    width: 100%;
+    height: 100%;
+    left: 38px;
+    top: 105px;    
+    border-radius: 5px;
+    margin:20px;
+}
+.whatistrackgenix-text{
+    flex-direction: column;
+    display: flex;
+}
+input[type="Learn-More"i]{
+    display: none;
+}
+
+#functionalities {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 20px 35px;
+}
+.fa-solid{
+    font-size: 35px;
+
+}
+.functionalities-item{
+    flex-direction: column;
+}
+.functionalities-item > h3 {
+    top: -20px;
+    left:80px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+.functionalities-item > p {
+    top:30px;
+    left:80px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+}
+.functionalities-item > h4 {
+    top:30px;
+    left:0px;
+}
+.whytrackgenix{
+    margin-bottom: 100px;
+    border-top: 1px grey solid;
+
+}
+img#second{
+    height: 100%;
+    width: 100%;
+    left: 32px;
+    top: 1247px;
+    border-radius: 5px;    
+    margin-top: 20px;
+}
+#morebutton{
+    background: #FFFFFF;
+    border: 1px solid #FF5500;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    color: #FF5500;
+    font-weight: 400;
+    font-size: 15px;
+    width: 139px;
+    left: calc(50% - 139px/2 - 232.5px);
+    top: 48.7%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 25px;
+}
+.form-group{
+    border-top: 1px grey solid;
+}
+.form{
+    display: block;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+input[type="text" i] {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+input[type="email"i] {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+select{
+    width: 93%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+textarea{
+    width: 90%;
+    height: 45%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.form-group > h2{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+}
+input[type="submit" i] {
+    width: 171px;
+    left: calc(50% - 171px/2 - 314.17px);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 25px;
+    top: 67.41%;
+    bottom: 30.91%;
+    background: #FF5500;
+    border: 1px solid #FF5500;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+input[type="reset" i] {
+    width: 111px;
+    left: calc(50% - 111px/2 - 128.17px);
+    top: 67.41%;
+    bottom: 30.91%;
+    background: #FFFFFF;
+    border: 1px solid #FF5500;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    color: #FF5500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-name-email{
+    display: flex;
+    flex-direction: column;
+}
+
+#history{
+    width: 310px;
+    height: 35px;
+    padding-top: 52px;
+    height: 400px;
+    width: 1080px;
+    margin-bottom: 200px;
+}
+
+.history > h2{
+    width: 60%;
+    height: 182.81px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+div.ourhistory > p{
+    margin: 20px;
+    width: 900px;
+
+}
+
+img#third{
+    width: 80%;
+    height: 60%;
+    left: 32px;
+    top: 2190px;
+}
+
+#pcs{
+    display:flex;
+    flex-direction: column;
+    border-top: 1px grey solid;
+}
+
+.pcs-item{
+    height: 300px;
+}
+
+.pcs-item > h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+#olstyle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+}
+main{
+    border-bottom: 4px solid #FF0000;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (min-width:1024px){
+    main{
+        margin-left: 300px;
+    }
+        input[type="Learn-More"i]{
+        display: block;
+        width: 111px;
+        left: calc(50% - 111px/2 - 128.17px);
+        top: 67.41%;
+        bottom: 30.91%;
+        background: #FFFFFF;
+        border: 1px solid #FF5500;
+        box-sizing: border-box;
+        border-radius: 5px;
+        text-align: center;
+        color: #FF5500;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .whatistrackgenix-content{
+        flex-direction: row-reverse;
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+    div#why-trackgenix{
+        flex-wrap: wrap;
+    }
+
+    img#second{
+    height: 230px;
+    width: 347.1205749511719px;
+    left: 32px;
+    top: 1247px;
+    border-radius: 5px;    
+    margin-top: 20px;
+    }
+
+    .form-name-email{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+
+    #functionalities{
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+
+    }
+    .functionalities-item {
+        flex-basis: 45%;
+
+    }
+
+    div.whytrackgenix{
+        display: flex;
+        margin-bottom: 0%;
+    }
+
+    div#history{
+        margin-bottom: 0%;
+    }
+
+    div.ourhistory{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    div.ourhistory-text{
+        width: 50%;
+        margin-left: 20px;
+    }
+
+    img#third{
+        width: 350px;
+        height: 180px;
+        left: 32px;
+        top: 2190px;
+    }
+    
+    #pcs{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 15%;
+    }
+}
