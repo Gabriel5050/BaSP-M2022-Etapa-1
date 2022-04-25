@@ -16,7 +16,7 @@ window.onload = function() {
             emailInlineAlert.textContent = "* Email Error";
             loginEmail.insertAdjacentElement("afterend", emailInlineAlert);
         } else {
-            emailInlineAlert.textContent = " ";
+            emailInlineAlert.textContent = "";
         }
     }
     function validateEmailF() {
@@ -41,19 +41,19 @@ window.onload = function() {
             passwordInlineAlert.textContent = "* Password Error";
             loginPassword.insertAdjacentElement('afterend', passwordInlineAlert);
         } else {
-            passwordInlineAlert.textContent = " ";
+            passwordInlineAlert.textContent = "";
         }
     }
     function validatePasswordF() {
         passwordInlineAlert.remove();
     }
 
-    var continueBtn = document.getElementById('continue');
-    continueBtn.addEventListener('click', btn);
+    var continueBtn = document.getElementById("continue");
+    continueBtn.addEventListener("click", btn);
 
     function btn() {
         if ((loginEmail.value.length != 0) && (loginPassword.value.length != 0) &&
-            (passwordInlineAlert.textContent == " ") && (emailInlineAlert.textContent == " ")) {
+            (passwordInlineAlert.textContent == "") && (emailInlineAlert.textContent == "")) {
             alert('Login successfull');
             alert('Email: '+loginEmail.value+'  Password: '+loginPassword.value);
         } else {

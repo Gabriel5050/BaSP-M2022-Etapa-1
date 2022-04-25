@@ -1,8 +1,8 @@
 console.log('--EXERCISE 2: Strings');
 
 /*
-    a.create a varieble string type with at least 10 caracters
-    and convert the hole text in upper case
+    a.Crear una variable de tipo string con al menos 10 caracteres 
+    y convertir todo el texto en mayúscula (utilizar toUpperCase).
 */
 
 console.log('-exercise 2.a');

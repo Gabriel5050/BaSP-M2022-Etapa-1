@@ -30,6 +30,7 @@ else{
     “Anciano” si es mayor a 75 años.
 */
 // var Age = 32;
+// hice un random numer para verificar si funcionaba cada else if con solo recargar la pagina
 var Age = Math.floor(Math.random() * 101);
 console.log(Age);
 if(Age<2){
