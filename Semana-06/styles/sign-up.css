@@ -1,7 +1,11 @@
-/* Log In */
+/* Sign-Up */
 body{
     font-family: 'Roboto';
     font-style: normal;
+}
+
+h3{
+    margin-bottom: 2px;
 }
 
 div.form-container{
@@ -10,8 +14,7 @@ div.form-container{
     flex-direction: column;
     align-content: center;
     align-items: center;
-    width: 499.08px;
-    height: 583px;
+    width: 70%;
     left: 573px;
     top: 173px;
     margin-left: 15%;
@@ -21,26 +24,34 @@ div.form-container{
     margin-bottom: 50px;
     justify-content: center;
 }
+input[type="Name"i]{
+    width: 80%;
+    border-radius: 5px;
+    padding: 10px;
+}
+input[type="text"i]{
+    width: 80%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
 input[type="email"i]{
     width: 80%;
     border-radius: 5px;
     padding: 10px;
-    margin-top: 30px;
-    margin-right: 15px;
+    margin-top: 5px;
 }
 input[type="password"i]{
     width: 80%;
     border-radius: 5px;
     padding: 10px;
-    margin-top: 30px;
-    margin-right: 15px;
-    margin-bottom: 20px;
 }
 
 form {
     display: block;
     margin-top: 0em;
-    margin-left: 15%;
+    margin-left: 0%;
 }
 input[type="submit" i] {
     width: 70%;
@@ -57,8 +68,4 @@ input[type="submit" i] {
     text-align: center;
     color: #ff5500;
 }
-label {
-    cursor: default;
-    margin: 10%;
-    margin-top: 100px;
-}
+
