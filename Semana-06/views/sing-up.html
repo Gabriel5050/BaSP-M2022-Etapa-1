@@ -7,9 +7,9 @@
         <link rel="stylesheet" type="text/css" href="../styles/nav.css">
         <link rel="stylesheet" type="text/css" href="../styles/main.css">
         <link rel="stylesheet" type="text/css" href="../styles/footer.css">
-        <link rel="stylesheet" type="text/css" href="../styles/login.css">
+        <link rel="stylesheet" type="text/css" href="../styles/sign-up.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Page</title>
+  <title>Sign Up</title>
 </head>
 <body>
   <header>
@@ -36,13 +36,21 @@
     </nav>
     <main>
       <div class="form-container">
-        <h2>Log In</h2>
+        <h2>Sign Up</h2>
         <form id="logIn">
-            <input type="email" placeholder="Enter your email" name="email">
-            <input type="password" placeholder="Enter your password" name="password">
-            <label id="remember-me"><input type="checkbox"> Remember Me</label>
-            <a href="#" class="forgot-password">Forgot password?</a>
-            <input type="submit" value="Continue" class="button" id="continue">
+            <div class="singUp">
+                <h3>Name</h3>
+                <input type="Name" placeholder="   " name="Name">
+                <h3>Last name</h3>
+                <input type="text" placeholder="   " name="LastName">
+                <h3>Email</h3>
+                <input type="email" placeholder="   " name="email">
+                <h3>Password</h3>
+                <input type="password" placeholder="   " name="password">
+                <h3>Repeat Password</h3>
+                <input type="password" placeholder="   " name="password">
+                <input type="submit" value="Continue" class="button" id="continue">
+            </div>
         </form>
       </div>
     </main>
