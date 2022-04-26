@@ -17,8 +17,10 @@ div.form-container{
     border-radius: 5px;
     margin-top: 30px;
     margin-bottom: 50px;
+    margin-right: 20%;
     justify-content: center;
 }
+
 input[type="email"i]{
     width: 80%;
     border-radius: 5px;
@@ -40,6 +42,7 @@ form {
     margin-top: 0em;
     margin-left: 15%;
 }
+
 input[type="submit" i] {
     width: 70%;
     left: calc(50% - 171px/2 - 314.17px);
