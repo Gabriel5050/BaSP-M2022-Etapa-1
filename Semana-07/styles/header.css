@@ -1,0 +1,39 @@
+/*Header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    border-bottom: red solid 4px;
+}
+
+h1{
+    display: inline;
+    padding-left: 10px;
+    font-size: 25px;
+    color: #111;
+}
+
+.p-h1{
+    margin: 10px 20px;
+}
+
+.p-h1 p{
+    display: inline;
+    font-size: 30px;
+    color: orangered;
+ }
+
+header .links{
+    display: none;
+    margin: 10px 20px;
+    font-size: 30px;
+    text-indent: 4px;
+}
+
+@media screen and (min-width:481px){
+    header .links{
+        display: block;
+    }
+}

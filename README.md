@@ -59,17 +59,5 @@ Description of the problematic week N°06:
 
 do the screenflow of the landing page(log in and employee-signup) and its funccionalities using javascript and DOM.
 
-Folder:
-https://github.com/Gabriel5050/BaSP-M2022-Etapa-1/tree/master/Semana-06
+Description of the problematic week N°07:
 
-landing:
-
-file:///D:/Desktop/curso%20IT/Repositorios%20Git%20Hub/BaSP-M2022-Etapa1/Semana-06/views/index.html
-
-log in :
-
-file:///D:/Desktop/curso%20IT/Repositorios%20Git%20Hub/BaSP-M2022-Etapa1/Semana-06/views/Login.html
-
-sing up :
-
-file:///D:/Desktop/curso%20IT/Repositorios%20Git%20Hub/BaSP-M2022-Etapa1/Semana-06/views/sing-up.html
