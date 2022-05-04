@@ -28,16 +28,16 @@ This is a program that allows you to:
 
     ![image](https://user-images.githubusercontent.com/94427392/160260373-ef8b0520-5d0f-4c44-9641-8e83e86d264b.png)
 
-Week 02:
+Description of the problematic Week 02:
 
 Build the structure of the landing page using HTML, using
 the correct semantic.
 
-Week 03:
+Description of the problematic Week 03:
 
 Add style to the landing page using basic CSS properties
 
-Week 04:
+Description of the problematic Week 04:
 
 make the landing page responsive for tablet - movile - desktop using flex box
 
@@ -59,5 +59,10 @@ Description of the problematic week N°06:
 
 do the screenflow of the landing page(log in and employee-signup) and its funccionalities using javascript and DOM.
 
+https://gabriel5050.github.io/BaSP-M2022-Etapa-1/Semana-06/
+
 Description of the problematic week N°07:
 
+extend the forms of week 06 so when you press the confirmation buttons the data loaded in them are sent to a web server through a -request HTTP from javascript.
+
+https://gabriel5050.github.io/BaSP-M2022-Etapa-1/Semana-07/
